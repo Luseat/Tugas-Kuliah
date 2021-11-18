@@ -5,7 +5,7 @@ int main()
 {
 	cout<<" Nama   : HANIFUDIN ROBBANI"<<endl;
 	cout<<" Kelas  : TI.21.C3"<<endl;
-	cout<<" Nim    : 312110387"<<endl;
+	cout<<" Nim    : 312110186"<<endl;
 	cout<<endl;
 	
 	//Printah For
