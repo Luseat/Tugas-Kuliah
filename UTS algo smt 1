@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	
+  int bil;
+  bil=10;
+  while(bil <= 30)
+        if(bil*2==1)
+        {
+           if(bil==21||bil==27){
+           	 bil++;
+		   }
+		   else{
+		   	 cout << bil << endl;
+		   	 bil++;
+		   }
+		}
+		else{
+		  bil++;
+		}
+  cout << "End" << endl;
+  
+}
