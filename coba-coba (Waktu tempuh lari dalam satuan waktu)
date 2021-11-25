@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+main()
+{
+ int J,M,S,TS;
+ cout<<"Waktu Tempuh Pelari dalam  satuan Detik"<<endl<<endl;
+ 
+ cout<<"Masukan jam : ";
+ cin>>J;
+ cout<<"Masukan menit : ";
+ cin>>M;
+ cout<<"Masukan detik : ";
+ cin>>S;
+ J=J*3600;
+ M=M*60;
+ TS=J+M+S;
+ cout<<endl<<"Waktu tempuh pelari adalah %d Detik "<<TS;
+ return 0;
+}
