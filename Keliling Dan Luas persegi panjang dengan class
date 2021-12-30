@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+class Persegi {
+private:
+int panjang, lebar, luas, keliling;
+public:
+Persegi(int p = 0, int l = 0) {
+panjang = p;
+lebar = l;
+}
+void hitungLuas() {
+luas = panjang * lebar;
+keliling=2*(panjang+lebar);
+}
+void cetakHasil() {
+cout << " Luas = " << luas;
+cout << " Keliling = " << keliling;
+}
+};
+int main() {
+Persegi a(8,5);
+a.hitungLuas();
+a.cetakHasil();
+return 0;
+}
