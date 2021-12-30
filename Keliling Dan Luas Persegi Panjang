@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	float keliling,luas,panjang,lebar;
+	cout<<"Perhitungan Persegi Pangjang"<<endl;
+	cout<<"-----------------------------------"<<endl;
+	cout<<"PANJANG\t\t: ";
+	cin>>panjang;
+	cout<<"LEBAR\t\t: ";
+	cin>>lebar;
+	
+	luas=panjang*lebar;
+	cout<<"Luas Persegi Panjang\t: "<<luas<<endl;
+	
+	keliling=2*(panjang+lebar);
+	cout<<"Keliling Persegi Panjang: "<<keliling<<endl;
+	return 0;
+}
